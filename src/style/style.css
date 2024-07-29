@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: Monument Extended;
+    src:url(../assets/MonumentExtended-Regular.otf);
+  }
+@font-face {
+  font-family: Montserrat;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+
+body {
+    background-image: url("https://cdn.monstercat.com/background-tile.webp");
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  scrollbar  */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fdfdfdc9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fdfdfd;
+}
