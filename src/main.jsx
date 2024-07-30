@@ -12,12 +12,12 @@ import './style/style.css'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "clone_monster_cat/",
     element: <Index/>,
     errorElement: <div></div>,
   },
   {
-    path: "/:Id",
+    path: "clone_monster_cat/:Id",
     element: <Home/>,
   },
 ]);

@@ -12,7 +12,7 @@ function Index() {
                 <input id='input_musica_id' placeholder='Insira a id da musica'/>
                 <button>
                     <a id='button_id' href={""} onMouseEnter={function (){
-                    document.getElementById("button_id").href = "/" + document.getElementById('input_musica_id').value}}>
+                    document.getElementById("button_id").href = "/clone_monster_cat/" + document.getElementById('input_musica_id').value}}>
                     <span className="material-symbols-outlined">play_arrow</span> Click Aqui
                     </a>
                 </button>
